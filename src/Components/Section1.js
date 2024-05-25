@@ -240,8 +240,8 @@ return(
 <div className="footer">
             <span className="fotters">© 2023 Copywrite. All rights reserved by QodeMatrix</span>
             <span className="footer2">
-                <a href="#">Documentation</a>
-                <a href="#">Support</a>
+                <a href="https://qodematrix.com/docs/motion-art-for-elementor/">Documentation</a>
+                <a href="https://support.qodematrix.com/login">Support</a>
             </span>
         </div>
 
