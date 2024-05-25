@@ -1,8 +1,21 @@
 body{
-    background-color:hsl(235, 28%, 8%);
-    
+    background-color:#0E0F19;
+}
+html, body {
+    overflow: hidden;
 }
 
+body {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+	height: 100%;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
 .web1{
     position:fixed;
 }
@@ -100,13 +113,12 @@ body{
 .heading{
     color:#EEE5FF;
     text-align:center;
-    font-family:"Sora", Sans-serif;
 }
 
 .head{
     padding-left:190px;
     font-size: 3.6rem;
-    font-weight: 550;
+    font-weight: 600;
     padding-top: 85px;
     letter-spacing: 1px;
 }
@@ -119,8 +131,6 @@ body{
     font-size: 17px;
     font-weight: 500;
     color:#B4AEC4 ;
-    font-family:"Outfit", "sans-serif";
-
 }
 .s1 .sec1heading{
     text-align: center;
@@ -206,12 +216,10 @@ margin-top: 20px;
 
 .s1 .cardTitle{
 color: #EEE5FF;
-font-family: "Sora";
 }
 .s1 .cardText{
     color:#B4AEC4;
     font-size: 18px;
-    font-family: "Outfit";
 }
 .s1 .card{
     width:620px;
@@ -411,19 +419,16 @@ color: #EEE5FF;
         padding-right: 0px;
     }
     .s2 .wandhead1{
-        font-size: 25px;
+        font-size: 28px;
         color: #EEE5FF;
-        font-weight: 500;
+        font-weight: 600;
         text-align: center;
-        letter-spacing: 2.5px;
-        line-height: 40px;
     }
     .s2 .wandpara{
         font-size: 16px;
         color: #B4AEC4;
-        font-weight: 300;
+        font-weight: 350;
         text-align: center;
-        line-height: "60px";
     }
     .s2 .purchase-envato{
     margin-top: 20px;
@@ -447,10 +452,7 @@ color: #EEE5FF;
         font-size:15px;
     }
     .s2 .chead{
-        font-size:25px;
-        font-weight: 500;
-        line-height: 55px;
-        letter-spacing: 2px;
+        font-size:28px;
     }
     .s2 .c1{
         padding-top:70px;
@@ -465,26 +467,19 @@ color: #EEE5FF;
     
     .s2 .cardTitle{
     color: #EEE5FF;
-    font-size: 20px;
-    text-align: center;
     }
     .s2 .cardText{
         color:#B4AEC4;
-        font-size: 16px;
-        line-height: 30px;
-        font-weight: 300;
-        text-align: center;
-        letter-spacing: 0.5px;
+        font-size: 15px;
     }
     .s2 .card{
         width: 340px;
-        margin-left: 10px;
     }
     .s2 .cdimg{
-        width:270px;
+        width:290px;
     }
     .s2 .hey{
-        
+        margin-left: 10px;
         margin-right: 10px;
         text-align: center;
         padding-top:40px;
@@ -492,23 +487,15 @@ color: #EEE5FF;
     .s2 .card3Title{
         padding-top: 15px;
         color: #EEE5FF;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 60px;
         }
         .s2 .card3Text{
             color:#B4AEC4;
             font-size: 18px;
             padding-top:10px;
         }
-    .s2 .card3{
-        width:315px;
-        margin-left: 20px;
-        padding-right: 20px;
-    }
     .s2 .cd3img{
         margin-bottom: 25px;
-        width:240px
+        width:290px
     }
     .s2 .cardsa{
         text-align: center;
@@ -516,30 +503,27 @@ color: #EEE5FF;
     }
     .s2 .cardsheada{
         color:#EEE5FF;
+        font-size:10px;
         width:310px;
         padding-left:14.3px;
         margin-right: 10px;
-        margin-left:15px;
     }
     .s2 .cheada{
-        font-size:25px;
-        font-weight:500;
-        line-height: 45px;
+        font-size:28px;
     }
     .s2 .cardpara{
         width:355px;
-        font-size:16px;
+        font-size:14.5px;
         padding-top: 10px;
         padding-left: 15px;
         padding-right:15px;
         font-weight: 400px;
-        line-height: 30px;
+        letter-spacing: 1px;
         }
         .s2 .c41,.s2 .c42, .s2 .c43{
             padding-top:25px;
-            padding-left:5px;
-            padding-right: 5px;
-            width:180.5px
+            padding-left:10px;
+            padding-right: 10px;
         }
         
         .s2 .card4Title{
@@ -832,7 +816,7 @@ color: #EEE5FF;
     .s3 .footer a {
         margin-left: 0;
         margin-top: 10px;
-        padding-left: 40px;
+        padding-left: 20px;
         padding-right: 5px;
         color:#EEE5FFB8;
 
