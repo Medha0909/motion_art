@@ -16,7 +16,6 @@ body{
     background-color: #262626;
     height: 52px;
     overflow: hidden;
-    z-index: 800;
 }
 
 .nav-button{
